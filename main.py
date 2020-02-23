@@ -11,7 +11,9 @@ while comando != "sair":
   comando = input("Digite o comando: (novo, pes, sair):")
 
   if comando == "novo":
-    print("Comando novo selecionado")
+    nome = input("Nome: ").strip()
+    telefone = input("Telefone: ").strip()
+    email = input("E-mail: ").strip()
 
   if comando == "pes":
     print("Comando pes selecionado")
