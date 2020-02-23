@@ -11,7 +11,7 @@ while comando != "sair":
   comando = input("Digite o comando: (novo, pes, sair):")
 
   if comando == "novo":
-    print("comando novo selecionado")
+    print("Comando novo selecionado")
 
   if comando == "pes":
-    print("comando pes selecionado")
+    print("Comando pes selecionado")
